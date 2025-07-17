@@ -1,11 +1,11 @@
 # config.py
 
 # Discord Webhook URL
-DISCORD_WEBHOOK = "YOUR_DISCORD_WEBHOOK_URL_HERE"
+DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1395138384518844508/riuLCmuUuVfVZECJE-zW75VwARH2p9jd8yP_Z1ndjP4gvNMH08Mf7C9PpXcITM-nmw8B"
 
 # Telegram Bot Credentials
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
-TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID_HERE"
+TELEGRAM_TOKEN = "7987532893:AAGvwCj4X83Qr5IFYyk3GeO3synDYR5Xh4Y"
+TELEGRAM_CHAT_ID = "7285391034"
 
 # Redis URL for Celery
 # This is the default local URL. Update if your Redis server is elsewhere.
