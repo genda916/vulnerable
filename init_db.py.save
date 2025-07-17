@@ -1,0 +1,8 @@
+from main import create_app, db
+from main import Submission  # Required to ensure the table is created
+
+app = create_app()
+
+with app.app_context():
+    db.create_all()
+    print("✅ Database and tables created successfully.")

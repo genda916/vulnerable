@@ -1,0 +1,18 @@
+# The programming language and environment to use.
+language = "python3"
+
+# The command that runs when you press the "Run" button.
+# It installs dependencies, creates the database if it doesn't exist,
+# and then starts both the web server and the background worker.
+run = "pip install -r requirements.txt && flask --app main:create_app db upgrade && gunicorn 'main:create_app()' & celery -A tasks.celery worker --loglevel=info"
+
+# Specifies which files to show by default.
+entrypoint = "main.py"
+
+[nix]
+# Specifies the Nix channel for package management.
+channel = "stable-23_11"
+
+[database]
+# Tells Replit to use a file-based database.
+type = "file"

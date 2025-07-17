@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5f9;
+  color: #111827;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e2e8f0;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+header img {
+  height: 64px;
+  margin-right: 20px;
+}
+
+header .text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+header .text-group .gov {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+header .text-group .cm-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.language-toggle {
+  text-align: right;
+  margin: 10px 20px;
+  font-size: 14px;
+  color: #334155;
+  cursor: pointer;
+}
+
+#qr-section {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#success-popup {
+  display: none;
+  background: #dcfce7;
+  color: #166534;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 500;
+  text-align: center;
+}

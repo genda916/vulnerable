@@ -1,0 +1,17 @@
+# Core Framework
+Flask==3.0.3
+
+# Database ORM
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.30
+
+# Asynchronous Tasks
+celery==5.4.0
+redis==5.0.7
+
+# HTTP Requests & Timezones
+requests==2.32.3
+pytz==2024.1
+
+# Production Server
+gunicorn==22.0.0
